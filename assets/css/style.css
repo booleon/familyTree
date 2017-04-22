@@ -67,7 +67,29 @@ right connector from last child*/
 .genealogie li:first-child::after{
 	border-radius: 5px 0 0 0;
 }
+/*Time to add downward connectors from parents*/
+.genealogie ul ul::before{
+	content: '';
+	position: absolute; top: 0; left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0; height: 20px;
+}
 
+.genealogie li a{
+	border: 1px solid #ccc;
+	padding: 5px 10px;
+	text-decoration: none;
+	color: #666;
+	font-family: arial, verdana, tahoma;
+	font-size: 11px;
+	display: inline-block;
+
+	border-radius: 5px;
+
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+}
 /* ######################################### */
 /*  ######    -FIN- DEUXIEME LIGNE   ###### */
 /* ######################################### */
