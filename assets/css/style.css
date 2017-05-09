@@ -7,8 +7,9 @@ body{
   font-size: 0.7rem;
 
 }
-
-/*  ###### PREMIERE LIGNE         ###### */
+/* ######################################### */
+/*  ######       PREMIERE LIGNE      ###### */
+/* ######################################### */
 .genealogie ul {
   padding-top: 20px;
 	position: relative;
@@ -22,7 +23,7 @@ body{
 	padding: 20px 5px 0 5px;
 }
 
-.genealogie ul li a{
+.genealogie ul li a:not(a:first-of-type){
   padding: 3px;
   border: solid 1px orange;
   border-radius: 5px;
