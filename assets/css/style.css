@@ -3,10 +3,35 @@ background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#fbdf93 100%);
  */
 
 body{
-  padding: 0; margin: 0;
+  padding: 1%; margin: 0;
   font-size: 0.7rem;
-
+  background-image: url("../img/cube.jpg");
+  background-size: cover;
 }
+
+h1{
+  margin-top: 0;
+  text-align: center;
+  color: grey;
+  padding: 1%;
+  font-weight: bold;
+  border-radius: 20px;
+  background: linear-gradient(180deg, #eaa800, #fff1be);
+}
+
+.page{
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 97%, 0.9);
+  padding: 1%;
+  border: inset grey 6px;
+  box-shadow: 0 0 40px black;
+}
+
+@media (min-width: 1200px){
+  .container {
+    width: 3000px;
+}
+
 /* ######################################### */
 /*  ######       PREMIERE LIGNE      ###### */
 /* ######################################### */
@@ -23,11 +48,10 @@ body{
 	padding: 20px 5px 0 5px;
 }
 
-.genealogie ul li a:not(a:first-of-type){
+.genealogie ul li a:not(){
   padding: 3px;
   border: solid 1px orange;
   border-radius: 5px;
-  /*background-color: #ffe1a5;*/
   background: linear-gradient(to bottom, #fceabb 0%,#fccd4d 50%,#fbdf93 100%);
 }
 /* ######################################### */
@@ -77,19 +101,17 @@ right connector from last child*/
 }
 
 .genealogie li a{
-	border: 1px solid #ccc;
-	padding: 5px 10px;
-	text-decoration: none;
-	color: #666;
-	font-family: arial, verdana, tahoma;
-	font-size: 11px;
-	display: inline-block;
-
-	border-radius: 5px;
-
-	-webkit-transition: all 0.5s;
-	-moz-transition: all 0.5s;
-	transition: all 0.5s;
+  border: 1px solid #989898;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #666;
+  font-family: arial, verdana, tahoma;
+  font-size: 11px;
+  display: inline-block;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
 }
 /* ######################################### */
 /*  ######    -FIN- DEUXIEME LIGNE   ###### */
