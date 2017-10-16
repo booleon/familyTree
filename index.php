@@ -28,7 +28,16 @@
                   </li>
                   <li><a href="#">Xavier</a>
                     <ul>
-                      <li><a href="#">Mélanie</a><a href="#">Amandine</a></li>
+                      <li><a href="#">Mélanie</a>
+                      <ul>
+                         <li><a href="#">Juliette</a><a href="#">Louis</a><a href="#">Clémentine</a></li>
+                      </ul>
+                      </li>
+                      <li><a href="#">Amandine</a>
+                        <ul>
+                           <li><a href="#">Paul</a></li>
+                        </ul>
+                      </li>
                     </ul>
                   </li>
                   <li><a href="#">Pascal</a>
@@ -41,7 +50,7 @@
 
               <li><a href="#">Marie-Christine</a>
                 <ul>
-                  <li><a href="#">Emmanuel</a><a href="#">Philippe</a></li>
+                  <li><a href="#">Emmanuel</a></li><li><a href="#">Philippe</a></li>
                 </ul>
               </li>
               <li><a href="#">Colette</a>
