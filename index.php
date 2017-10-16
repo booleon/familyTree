@@ -16,7 +16,7 @@
 
       <div class="genealogie">
         <ul>
-          <!-- ####### DEBUT BON PAPA / BONNE MAMAN ####### -->
+          <!-- ####### DEBUT GENEALOGIE ####### -->
           <li><span class="couple"><a href="#">Roland</a> <a href="#">Eveline</a></span>
             <ul>
               <li><a href="#">Rolande</a>
@@ -100,7 +100,7 @@
               </li>
             </ul>
           </li>
-          <!-- ####### FIN BON PAPA / BONNE MAMAN ####### -->
+          <!-- ####### FIN GENEALOGIE ####### -->
         </ul>
       </div>
     <!-- Fin arbre -->
